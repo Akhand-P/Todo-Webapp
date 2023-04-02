@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+    /* font-size: 10px; */
+}
+.container{
+    width: 80%;
+    background-color: aqua;
+    height: 60vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.delete-icon {
+    cursor: pointer;
+    color: red;
+    font-size: 40px;
+}
+  
+.heading{
+    height: fit-content;
+    margin-top: 1rem;
+}
+.heading span{
+    font-size: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    padding:5px;
+}
+.todo-items{
+    /* display: flex; */
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    width: 50%;
+    border-radius: 10px;
+    height: 50%;
+    overflow-y:scroll;
+    background-color: rgb(255, 255, 255);
+}
+/* .new-todo{
+    overflow-y: scroll;
+
+} */
+.todo-addon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+}
+#push,#delete{
+    height: 30px;
+    width: 70px;
+    background-color: aqua;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#write{
+    margin-right: 10px;
+    height: 30px;
+    width:300px;
+    outline: none;
+    border:2px solid #939697;
+    border-radius: 5px;
+    padding: 20px;
+}
+#write:focus{
+    border: 2px solid aqua;
+}
